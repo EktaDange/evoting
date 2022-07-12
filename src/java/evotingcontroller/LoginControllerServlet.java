@@ -41,7 +41,7 @@ public class LoginControllerServlet extends HttpServlet {
        {
            System.out.println("LoginControllerServlet ke try mein");
            String result=UserDAO.validateUser(user);
-           System.out.println(result);
+             System.out.println(result);
            request.setAttribute("result",result);
            request.setAttribute("userid",userid);
            rd=request.getRequestDispatcher("LoginResponse.jsp");

@@ -37,7 +37,8 @@ function addUser()
            mobile:mobile,
            gender:gender,
        };
-           let xhr=$.post("RegistrationControllerServlet",data,processResponse);   
+           let xhr=$.post("RegistrationControllerServlet",data,processResponse); 
+           xhr.fail(handleError);
           
         }
     }

@@ -19,7 +19,7 @@ function manageuser()
 
 function showuserdetails()
 {
-    console.log("js mein toh aaya");
+    //console.log("js mein toh aaya");
     $.post("ShowUserDetailsControllerServlet",function(responseText){
         $("#result").html(responseText.trim());
         console.log("js over");

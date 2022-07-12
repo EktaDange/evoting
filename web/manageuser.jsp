@@ -38,11 +38,11 @@
                 
                 "<div id='dv2' onclick='showuserupdateform()'>"
                     + "<img src='images/update1.jpg' height='300px' width='300px'>"
-                    + "<br><h3>Update User</h3></div>"+
+                    + "<br><h3>UPDATE USER</h3></div>"+
                 
                 "<div id='dv3' onclick='showdeleteuserform()'>"
                     + "<img src='images/delete.jpg' height='300px' width='300px'>"
-                    + "<br><h3>DELETE USER User</h3></div>"+
+                    + "<br><h3>DELETE USER </h3></div>"+
                 "<br><br> <div align='center' id='result'></div></div>");
             %>
     </body>
